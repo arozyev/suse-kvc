@@ -13,12 +13,12 @@
 # published by the Open Source Initiative.
 #
 Name:             suse-kvc
-Version:          1.0.0
+Version:          1.0.1
 Release:          0
 Summary:          SUSE Kernel Version Checker
 License:          MIT
-URL:              https://gitlab.suse.de/public-cloud/lambic.git
-Source:           %{name}-%{version}.tar.gz
+URL:              https://github.com/arozyev/suse-kvc
+Source:           https://github.com/arozyev/suse-kvc/%{name}-%{version}.tar.gz
 Group:            Development/Languages/Python
 
 BuildRequires:    python3-devel
