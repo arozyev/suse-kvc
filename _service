@@ -2,11 +2,16 @@
   <service name="obs_scm">
     <param name="url">https://github.com/arozyev/suse-kvc</param>
     <param name="scm">git</param>
+    <param name="subdir">package</param>
+    <param name="extract">suse-kvc.spec</param>
+    <param name="filename">suse-kvc</param>
+    <param name="revision">master</param>
+    <param name="version">1.0.1</param>
   </service>
   <service name="tar" mode="buildtime"/>
   <service name="recompress" mode="buildtime">
     <param name="file">*.tar</param>
     <param name="compression">gz</param>
   </service>
-  <service mode="buildtime" name="set_version" />
+  <service name="set_version" mode="buildtime"/>
 </services>
