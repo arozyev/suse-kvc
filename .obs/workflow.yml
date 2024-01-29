@@ -1,0 +1,5 @@
+rebuild_master:
+  steps:
+    - rebuild_package:
+        project: home:arozyev
+	package: kvc
