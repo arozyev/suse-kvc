@@ -18,7 +18,7 @@ Release:          0
 Summary:          SUSE Kernel Version Checker
 License:          MIT
 URL:              https://github.com/arozyev/suse-kvc
-Source:           https://github.com/arozyev/suse-kvc/%{name}-%{version}.tar.gz
+Source:           %{name}-%{version}.tar.gz
 Group:            Development/Languages/Python
 
 BuildRequires:    python3-devel
