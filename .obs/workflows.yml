@@ -2,7 +2,7 @@ rebuild_master:
   steps:
     - trigger_services:
         project: home:arozyev
-	package: kvc
+        package: kvc
     - rebuild_package:
         project: home:arozyev
         package: kvc
