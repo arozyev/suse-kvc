@@ -6,5 +6,3 @@ rebuild_master:
     - rebuild_package:
         project: home:arozyev
         package: kvc
-
-
